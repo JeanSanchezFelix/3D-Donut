@@ -6,8 +6,8 @@ void ofApp::setup(){
     text = "Welcome to Advanced Programming";
     xPos = ofRandom(ofGetWidth()-font.stringWidth(text));
     yPos = ofRandom(ofGetHeight()-font.stringHeight(text));
-    xSpeed = 2;
-    ySpeed = 2;
+    xSpeed = 115;
+    ySpeed = 100;
     bounce.load("bounce.mp3");
     bounce.setVolume(0.3);
     title.load("Scary.ttf", 26);
