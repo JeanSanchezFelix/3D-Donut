@@ -3,7 +3,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     font.load("Scary.ttf", 14);
-    text = "Welcome to Advanced Programming";
+    text = "Hello all and welcome to the Advanced Programming course! We hope the semester is going good so far and we cannot wait to see what great coders you are.";
     xPos = ofRandom(ofGetWidth()-font.stringWidth(text));
     yPos = ofRandom(ofGetHeight()-font.stringHeight(text));
     xSpeed = 115;
