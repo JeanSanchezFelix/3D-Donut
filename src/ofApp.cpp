@@ -7,7 +7,7 @@ void ofApp::setup(){
     
     // Create a donut mesh
     float radius = 150; // Outer radius
-    float holeRadius = 100; // Inner hole radius
+    float holeRadius = 125; // Inner hole radius
     float cornerRadius = 25; // Corner radius
     int resolution = 60; // Number of segments around the circle
     int holeResolution = 30; // Number of segments around the hole
